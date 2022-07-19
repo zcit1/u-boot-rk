@@ -1174,6 +1174,11 @@ int rk_board_fdt_fixup(const void *blob)
 	return 0;
 }
 
+int rk_board_late_init(void)
+{
+        return rk3568_board_late_init();
+}
+
 #if !defined(CONFIG_SPL_BUILD) && defined(CONFIG_ROCKCHIP_DMC_FSP)
 int rk_board_init(void)
 {
