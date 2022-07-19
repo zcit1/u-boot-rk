@@ -7,6 +7,7 @@
 #include <common.h>
 #include <dwc3-uboot.h>
 #include <usb.h>
+#include <i2c_eeprom.h>
 
 DECLARE_GLOBAL_DATA_PTR;
 
